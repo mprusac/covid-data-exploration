@@ -4,7 +4,7 @@ WHERE CONTINENT IS NOT NULL
 order by 3, 4
 
 
--- Selection of data that we will be using
+-- Selection of data that we will be using 
 
 SELECT Location, date, total_cases, new_cases, total_deaths, population
 FROM PortfolioProject..CovidDeaths
@@ -171,3 +171,4 @@ SELECT
     new_deaths
 FROM PortfolioProject..CovidDeaths
 WHERE continent IS NOT NULL;
+
